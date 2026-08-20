@@ -43,7 +43,7 @@ jobs:
 
       - name: Test website
         run: |
-          test -f build/26.html
+          test -f build/index.html
           test -f build/Style.css
 
       - name: Upload Pages artifact
