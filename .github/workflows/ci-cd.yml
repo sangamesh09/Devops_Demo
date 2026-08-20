@@ -21,7 +21,7 @@ jobs:
       - name: Build website
         run: |
           mkdir build
-          cp 26.html build/
+          cp index.html build/
           cp Style.css build/
 
       - name: Upload build
